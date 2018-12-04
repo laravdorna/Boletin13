@@ -35,6 +35,18 @@ public class Entrenador extends Plantilla {
     }
 
     
+
+    @Override
+    public String toString() {
+        return"Entrenador \n ID :\t" + super.getId() + "\n NOME: \t" + super.getNome()
+                + "\n APELIDOS: \t" + super.getApelido() + "\n EDADE: \t" + super.getEdade()
+                + "\n ID FEDERACIÓN: \t" +idFederacion;
+    }
+
+    @Override
+    public void viaxar() {
+        System.out.println("\nViaxa o entrenador");
+    }
     
     public void dirixirPartido() {
 

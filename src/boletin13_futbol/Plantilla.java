@@ -57,16 +57,19 @@ public class Plantilla {
     public void setEdade(int edade) {
         this.edade = edade;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Plantilla: \n ID :\t" + id + "\n NOME: \t" + nome + "\n APELIDOS: \t" + apelido + "\n EDADE: \t" + edade;
+    }
 
     public void concentrarse() {
+
+        System.out.println("\n\t\tConcentrase a selección");
     }
 
     public void viaxar() {
+        System.out.println("\n\t\tViaxa a selección");
     }
 
-
-
-    
 }

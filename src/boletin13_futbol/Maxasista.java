@@ -44,6 +44,19 @@ public class Maxasista extends Plantilla {
         this.anosExperiencia = anosExperiencia;
     }
 
+    @Override
+    public String toString() {
+        return "Maxasista: \n ID :\t" + super.getId() + "\n NOME: \t" + super.getNome()
+                + "\n APELIDOS: \t" + super.getApelido() + "\n EDADE: \t" + super.getEdade()
+                + "\n TITULACION: \t" + titulacion +"\n ANOS DE EXPERIENCIA: \t" +anosExperiencia;
+    }
+
+    @Override
+    public void viaxar() {
+        System.out.println("\nViaxan os maxaxistas"); 
+    }
+
+  
     
     public void darMasaxes() {
     }

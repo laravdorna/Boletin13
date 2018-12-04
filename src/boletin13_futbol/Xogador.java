@@ -43,6 +43,18 @@ public class Xogador extends Plantilla {
         this.demarcacion = demarcacion;
     }
 
+    @Override
+    public String toString() {
+        return "Xogador: \n ID :\t" + super.getId() + "\n NOME: \t" + super.getNome()
+                + "\n APELIDOS: \t" + super.getApelido() + "\n EDADE: \t" + super.getEdade()
+                + "\n DORSAL: \t" + dorsal+"\n DEMARCACION: \t" +demarcacion;
+    }
+
+    @Override
+    public void viaxar() {
+        System.out.println("\n Viaxan os xogadores");
+    }
+
     
     
     public void xogarPartido() {
