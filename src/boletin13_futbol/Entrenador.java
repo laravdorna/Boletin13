@@ -9,7 +9,7 @@ package boletin13_futbol;
  *
  * @author lvazquezdorna
  */
-public class Entrenador extends Plantilla {
+public class Entrenador extends Seleccion {
 
     private String idFederacion;
 

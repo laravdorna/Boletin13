@@ -9,7 +9,7 @@ package boletin13_futbol;
  *
  * @author lvazquezdorna
  */
-public class Xogador extends Plantilla {
+public class Xogador extends Seleccion {
 
     private int dorsal;
     private String demarcacion;

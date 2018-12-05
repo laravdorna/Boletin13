@@ -9,7 +9,7 @@ package boletin13_futbol;
  *
  * @author lvazquezdorna
  */
-public class Maxasista extends Plantilla {
+public class Maxasista extends Seleccion {
 
     private String titulacion;
     private int anosExperiencia;

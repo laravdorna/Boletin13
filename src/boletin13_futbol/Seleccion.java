@@ -9,17 +9,17 @@ package boletin13_futbol;
  *
  * @author lvazquezdorna
  */
-public class Plantilla {
+public class Seleccion {
 
     private int id;
     private String nome;
     private String apelido;
     private int edade;
 
-    public Plantilla() {
+    public Seleccion() {
     }
 
-    public Plantilla(int id, String nome, String apelido, int edade) {
+    public Seleccion(int id, String nome, String apelido, int edade) {
         this.id = id;
         this.nome = nome;
         this.apelido = apelido;
